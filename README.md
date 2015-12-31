@@ -37,7 +37,7 @@ Then just sort the files alphabetically (well, numerically) in Finder and you're
 Known issues
 ------------
 
-* Prefix number is zero-padded to two digits, so this will probably only work correctly for classes with fewer than 100 students (which happily is true of all the classes I teach).  But if you need more students, just increase the 2 in zfill(2) to something larger.
+* Prefix number is zero-padded to two digits, so this will probably only work correctly for classes with fewer than 100 students (which happily is true of all the classes I teach).  But if you need more students, just increase the 2 in `zfill(2)` to something larger.
 
 * This'll happily rename all the files in the directory you specify, so be careful not to specify the wrong directory.  It won't recurse into subdirectories though.
 
