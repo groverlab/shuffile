@@ -24,7 +24,7 @@ Here's how you use it:
 
    `python shuffile.py directory_path`
 
-where "directory_path" is the full path of the directory containing files to be shuffled.  The list of files is shuffled randomly (using python's random.shuffle function) and to lock-in the new order, numbers are added to the beginnings of the filenames.  So for the example shown above, the files might be shuffled and renamed
+where "directory_path" is the full path of the directory containing files to be shuffled.  The list of files is shuffled randomly (using python's [`random.shuffle`](https://docs.python.org/2/library/random.html#random.shuffle) function), and to lock-in the new order, numbers are added to the beginnings of the filenames.  So for the example shown above, the files might be shuffled and renamed
 
 * 01Carlos.ppt
 * 02Adams.ppt
@@ -37,7 +37,10 @@ Then just sort the files alphabetically (well, numerically) in Finder and you're
 Known issues
 ------------
 
+* Written to work on a Mac and untested on PC.
+
 * Prefix number is zero-padded to two digits, so this will probably only work correctly for classes with fewer than 100 students (which happily is true of all the classes I teach).  But if you need more students, just increase the 2 in `zfill(2)` to something larger.
 
 * This'll happily rename all the files in the directory you specify, so be careful not to specify the wrong directory.  It won't recurse into subdirectories though.
+
 
