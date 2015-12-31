@@ -20,7 +20,7 @@ I finally decided that the only way I could set the presentation order without b
 Usage
 -----
 
-Here's how you use it:
+Here's how you use it.  For maximum effect, run in front of class.
 
    `python shuffile.py directory_path`
 
@@ -32,7 +32,7 @@ where "directory_path" is the full path of the directory containing files to be 
 * 04Baker.ppt
 * ...
 
-Then just sort the files alphabetically (well, numerically) in Finder and you're good to go - come on down, Ms. Carlos!
+Then just sort the files alphabetically (well, numerically) in Finder and you're good to go - come on down, Ms. Carlos, you're the next contestant on *The Presentation Is Right*!
 
 Known issues
 ------------
@@ -41,6 +41,6 @@ Known issues
 
 * Prefix number is zero-padded to two digits, so this will probably only work correctly for classes with fewer than 100 students (which happily is true of all the classes I teach).  But if you need more students, just increase the 2 in `zfill(2)` to something larger.
 
-* This'll happily rename all the files in the directory you specify, so be careful not to specify the wrong directory.  It won't recurse into subdirectories though.
+* This'll happily rename all the files in whatever directory you specify, so be careful not to specify the wrong directory.  It won't recurse into subdirectories though.
 
 
