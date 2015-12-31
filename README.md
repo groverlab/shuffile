@@ -1,5 +1,9 @@
 # shuffile
+
 Randomizes the order of files in a directory.  For setting the order of class presentations without getting blamed by someone.
+
+Motivation
+----------
 
 Every quarter that I teach a class involving student projects, there eventually comes a time when I have a folder on my computer full of PowerPoint files from the students, like this:
 
