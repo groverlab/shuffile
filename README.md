@@ -37,7 +37,7 @@ Then just sort the files alphabetically (well, numerically) in Finder and you're
 Known issues
 ------------
 
-* Written to work on a Mac and untested on PC.
+* Written to work on a Mac; not tested on PC.
 
 * Prefix number is zero-padded to two digits, so this will probably only work correctly for classes with fewer than 100 students (which happily is true of all the classes I teach).  But if you need more students, just increase the 2 in `zfill(2)` to something larger.
 
