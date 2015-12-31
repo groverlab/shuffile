@@ -3,8 +3,8 @@ import random, os, sys
 if len(sys.argv) != 2:
     print """
     USAGE:
-        python shuffile.py directory_name
-    where 'directory_name' is the full path of the directory containing files to be shuffled.
+        python shuffile.py directory_path
+    where 'directory_path' is the full path of the directory containing files to be shuffled.
     """
 else:
     dirname = sys.argv[1]
