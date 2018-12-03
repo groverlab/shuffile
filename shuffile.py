@@ -1,11 +1,11 @@
 import random, os, sys
 
 if len(sys.argv) != 2:
-    print """
+    print("""
     USAGE:
         python shuffile.py directory_path
     where 'directory_path' is the full path of the directory containing files to be shuffled.
-    """
+    """)
 else:
     dirname = sys.argv[1]
     files = os.listdir(dirname)
@@ -13,9 +13,6 @@ else:
     counter = 0
     for filename in files:
         if not filename.startswith("."):
-            print counter, filename
-            os.rename(os.path.join(dirname,filename), os.path.join(dirname,str(counter).zfill(2)+filename))
+            print(counter, filename)
+            os.rename(os.path.join(dirname,filename), os.path.join(dirname,str(counter).zfill(2)+" "+filename))
             counter += 1
-
-
-
