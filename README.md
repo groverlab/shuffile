@@ -26,10 +26,10 @@ Here's how you use it.  For maximum effect, run in front of class.
 
 where "directory_path" is the full path of the directory containing files to be shuffled.  The list of files is shuffled randomly (using python's [`random.shuffle`](https://docs.python.org/2/library/random.html#random.shuffle) function), and to lock-in the new order, numbers are added to the beginnings of the filenames.  So for the example shown above, the files might be shuffled and renamed
 
-* 01Carlos.ppt
-* 02Adams.ppt
-* 03Donaldson.ppt
-* 04Baker.ppt
+* 01 Carlos.ppt
+* 02 Adams.ppt
+* 03 Donaldson.ppt
+* 04 Baker.ppt
 * ...
 
 Then just sort the files alphabetically (well, numerically) in Finder and you're good to go - come on down, Ms. Carlos, you're the next contestant on *The Presentation Is Right*!
